@@ -1,0 +1,12 @@
+use_frameworks!
+
+target 'DddAlert_Example' do
+  pod 'DddAlert', :path => '../'
+
+  target 'DddAlert_Tests' do
+    inherit! :search_paths
+
+    pod 'Quick', '~> 0.8'
+  pod 'Nimble', '~> 3.0'
+  end
+end
