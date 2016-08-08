@@ -46,7 +46,6 @@ class ViewController: UIViewController,UITextFieldDelegate,UINavigationControlle
 	
 	internal func textFieldShouldReturn(textField: UITextField) -> Bool {
 		
-		DButtonItem.enabled = true
 		DUILabel.text = aas.text
 		UIView.animateWithDuration(0.5,
 		                           animations: { () -> Void in
@@ -61,17 +60,6 @@ class ViewController: UIViewController,UITextFieldDelegate,UINavigationControlle
 					self.view1.transform = CGAffineTransformMakeScale(0, 0)
 			})
 		}
-		UIView.animateWithDuration(0.5,
-		                           animations: { () -> Void in
-			}) // 連続したアニメーション処理.
-		{ (Bool) -> Void in
-			UIView.animateWithDuration(0.5,
-			                           // アニメーション中の処理.
-				animations: { () -> Void in
-			})
-		}
-		// backgroundColorを使って透過させる。
-		view1.backgroundColor = UIColor(red: 0, green: 0, blue: 0, alpha: 0.2)
 		// アニメーション処理
 		UIView.animateWithDuration(NSTimeInterval(CGFloat(0.5)),
 		                           animations: {() -> Void in
@@ -81,6 +69,7 @@ class ViewController: UIViewController,UITextFieldDelegate,UINavigationControlle
 				
 		})
 		aas.resignFirstResponder()
+		DButtonItem.enabled = true
 		return true
 	}
 }
