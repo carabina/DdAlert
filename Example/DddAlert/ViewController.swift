@@ -32,7 +32,7 @@ class ViewController: UIViewController,UITextFieldDelegate,UINavigationControlle
 		
 		let screenWidth2 = self.view.bounds.width
 		let screenHeight2 = self.view.bounds.height
-		view1 = DddAlert(frame: CGRectMake(0, 0, screenWidth2, screenHeight2))
+		view1 = DbankAlert(frame: CGRectMake(0, 0, screenWidth2, screenHeight2))
 		self.view.addSubview(view1)
 		//任意のサイズ
 		aas = UITextField(frame: CGRectMake(100, 180, 414-200, 50))
