@@ -1,4 +1,6 @@
 # DddAlert
+![](https://github.com/daisukenagata/Dbank_UIAlert/blob/master/UIAlert.gif?raw=true)
+
 
 [![CI Status](http://img.shields.io/travis/add TableView/DddAlert.svg?style=flat)](https://travis-ci.org/add TableView/DddAlert)
 [![Version](https://img.shields.io/cocoapods/v/DddAlert.svg?style=flat)](http://cocoapods.org/pods/DddAlert)
