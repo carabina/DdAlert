@@ -1,0 +1,6 @@
+framework module DddAlert {
+  umbrella header "DddAlert-umbrella.h"
+
+  export *
+  module * { export * }
+}
